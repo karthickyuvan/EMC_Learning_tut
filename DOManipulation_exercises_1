@@ -1,0 +1,19 @@
+
+<h1 id="title">HELLO WORLD</h1>
+<button id="btn" onclick="change()">CHANGE</button>
+<button id="btn2" onclick="reset()">RESET</button>
+<script>
+
+     var newTitle = document.getElementById("title")
+     var resetText = newTitle.textContent
+    function change()
+    {
+        newTitle.textContent="Bye World"
+    }
+  
+
+function reset()
+{
+    newTitle.textContent = resetText;
+}
+</script> 
