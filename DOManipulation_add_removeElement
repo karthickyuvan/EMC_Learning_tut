@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <div id="container"></div>
+    <button onclick="addElement()">Add Element</button>
+    <button onclick="removeElement()">Remove Element</button>
+
+    <script>
+        function addElement() {
+            var newElement = document.createElement("p");
+            newElement.textContent = "This is a new paragraph.";
+            document.getElementById("container").appendChild(newElement); // Adds new element
+        }
+
+        function removeElement() {
+            var container = document.getElementById("container");
+            if (container.firstChild) {
+                container.removeChild(container.firstChild); // Removes the first child element
+            }
+        }
+    </script>
+</body>
+</html> 
