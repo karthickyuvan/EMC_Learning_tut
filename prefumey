@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>perfumey</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <nav>
+            <h1>prefumey</h1>
+            <ul>
+                <li>Home |</li>
+                <li>Products |</li>
+                <li>About Us |</li>
+                <li>Contact Us </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="searchbar">
+           <input placeholder="Search Here" />
+    </div>
+    <div class ="products">
+        <div class="box">
+           
+             <img src="https://source.unsplash.com/220x220/?perfume?1" >
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem dolorem obcaecati, aperiam eius nulla quis asperiores eligendi maxime beatae modi.</p>
+        </div>
+        <div class="box">
+           
+            <img src="https://source.unsplash.com/220x220/?perfume?2" >
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem dolorem obcaecati, aperiam eius nulla quis asperiores eligendi maxime beatae modi.</p>
+       </div>
+       <div class="box">
+           
+        <img src="https://source.unsplash.com/220x220/?perfume?3" >
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem dolorem obcaecati, aperiam eius nulla quis asperiores eligendi maxime beatae modi.</p>
+   </div>
+    </div>
+    <div class="about">
+        <h1>About Us </h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit sit porro ex obcaecati est, libero distinctio quo accusamus repudiandae pariatur temporibus dolorem nesciunt quae voluptatibus deleniti dolore! Alias corrupti exercitationem voluptatibus mollitia eum quaerat adipisci consectetur hic vero, quos culpa dicta possimus amet sed facilis. Beatae, odio voluptas maiores ut incidunt minus libero quod sed quaerat consectetur ipsa eius minima corrupti iusto tenetur aut non voluptatum consequuntur soluta nulla? Fugit quo, sunt aspernatur deserunt recusandae similique ullam omnis at vitae laborum unde beatae architecto qui repellat, error ipsa esse nisi! Ipsum facere id, eaque voluptates dolore dicta repellendus maxime dolor perspiciatis ad quidem facilis excepturi nulla autem assumenda fugit mollitia omnis voluptas aperiam saepe suscipit sunt. Ipsa, eveniet quam distinctio officiis neque hic nam iusto commodi explicabo sint delectus dolore sapiente itaque. Ipsa maxime provident consequatur quam, facilis deleniti veritatis dolore aut, sapiente expedita veniam aliquam vel error odio nisi eos esse. Exercitationem, architecto, provident perspiciatis totam dolores doloremque nemo modi vitae laborum consequuntur et ipsum nisi consectetur, atque voluptate culpa itaque quaerat ipsa ea unde. Animi, vitae ex sint repudiandae praesentium, error consequatur voluptas soluta perferendis fuga ab voluptatem minima ipsam molestiae deserunt rem facilis? Laborum numquam itaque eligendi dolorum recusandae, necessitatibus, ea explicabo tempora sed distinctio molestiae magni corrupti nobis quisquam et nam officia. Mollitia facilis nesciunt molestiae in pariatur inventore expedita harum, accusamus labore placeat illum suscipit tempora tenetur. Totam, quasi cumque voluptatibus, illo consequatur libero, dicta aspernatur ab facere ratione aut aperiam explicabo molestias repudiandae sed dignissimos officiis assumenda placeat! Harum, saepe! Praesentium eius dolorum, autem dignissimos vero fugit! Consectetur natus ad itaque fuga voluptates tempora distinctio nam eaque, similique ipsam at a iusto facilis voluptate aliquam illum velit repudiandae delectus, neque sit. Debitis et corrupti facere, autem, ipsam provident, cupiditate placeat ut voluptatum ullam facilis.</p>
+    </div>
+    <div class="contact">
+        <h4>contact</h4>
+        <p>9999993320</p>
+        <p>perfumey@gmail.com</p>
+        <p style="font-size: 10px; margin-top: 30px ;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores ducimus praesentium saepe non necessitatibus iure deleniti totam, distinctio dolore quae quisquam illum obcaecati, repudiandae accusamus velit sed rerum magnam similique hgcgjfchjbchgfxchvgfcvhgdfxhbfgcbvjfctdxhgfcbhgdfxsfhdcg gvctbhbcjygbvnkhg gbfcjgfbchjg  .</p>
+    </div>
+</body>
+</html>
