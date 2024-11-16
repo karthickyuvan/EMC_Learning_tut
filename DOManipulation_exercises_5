@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <div id="content">
+        <h2>This is the original heading</h2>
+        <p>This is the original paragraph.</p>
+    </div>
+    
+    <button onclick="changeContent()">Change Content</button>
+
+    <script>
+        function changeContent() {
+            var contentDiv = document.getElementById("content");
+            contentDiv.innerHTML = `
+                <h2>This is the new heading</h2>
+                <p>This is the new paragraph, added using innerHTML!</p>
+                <ul>
+                    <li>List item 1</li>
+                    <li>List item 2</li>
+                </ul>
+            `;
+        }
+    </script>
+</body>
+</html>
