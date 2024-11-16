@@ -1,4 +1,4 @@
-// practise - 1
+practise - 1
 
 /*
  for( count = 0 ; count <=10 ; count=count+1)
@@ -8,7 +8,7 @@
  */
 
 
- //practise - 2 
+ practise - 2 
 
  /*
  for (count = 1 ;count <=10 ; count = count +2)
@@ -17,7 +17,7 @@
  }
  */
 
-  //practise - 3 print in reverse order 10-1
+  practise - 3 print in reverse order 10-1
 
   /*
   for(count = 10 ; count >=1 ; count = count -1)
@@ -28,7 +28,7 @@
  */
 
 
-   //practise - 4 - print Even Numbers
+ practise - 4 - print Even Numbers
 
 
   /*
@@ -41,7 +41,7 @@
  }
  */ 
 
- //practise - 5 - print 2 tables
+practise - 5 - print 2 tables
  
 // var number = 2
 /*
