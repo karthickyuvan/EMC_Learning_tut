@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <img id="myImage" src="loading.gif" alt="Loading Image" width="200">
+    <button onclick="loadNewImage()">Load New Image</button>
+
+    <script>
+        function loadNewImage() {
+            var image = document.getElementById("myImage");
+
+            // Get the current 'src' attribute of the image
+            var currentSrc = image.getAttribute("src");
+            console.log("Current Image Source:", currentSrc); // Output: loading.gif
+            
+            // Change the image to a new one after loading
+            setTimeout(function() {
+                image.setAttribute("src", "new-image.jpg"); // Change to the new image
+                image.setAttribute("alt", "New Image");
+                console.log("Image source updated!");
+
+                // Remove the 'width' attribute
+                image.removeAttribute("width");
+                console.log("Width attribute removed!");
+            }, 2000); // Simulating a 2-second delay for loading
+        }
+    </script>
+</body>
+</html>
