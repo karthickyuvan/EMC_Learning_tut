@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Number Guessing Game</title>
+</head>
+<body>
+    <h1>Number Guessing Game</h1>
+    <input type="number" placeholder="Enter the Number to guess (1-10)" style="width: 200px;" id="guessno">
+    <button id="guessBtn" onclick="guess()">Check</button>
+    <p id="result"></p>
+    <p id="scorecard">Your Score: 0 | Attempts Left: 10</p>
+
+    <script>
+        var score = 0;  // Initialize score
+        var attempts = 10;  // Set maximum attempts to 10
+        var randomNo = Math.floor(Math.random() * 10) + 1;  // Generate random number
+
+        function guess() {
+            // Get the value of the user's guess
+            var guessNo = parseFloat(document.getElementById("guessno").value);
+            var result = document.getElementById("result");
+            var scorecard = document.getElementById("scorecard");
+
+            // Check if attempts have exceeded the limit
+            if (attempts === 0) {
+                alert("Your limit exceeded");
+                return;
+            }
+
+            // Check if the guessed number matches the random number
+            if (guessNo === randomNo) {
+                result.textContent = "You are Right!";
+                score += 1;  // Increase the score
+            } else {
+                result.textContent = "You are Wrong! The correct number was " + randomNo;
+                score -= 1;  // Decrease the score
+                attempts -= 1;  // Decrease attempts only if the guess is wrong
+            }
+
+            // Clear the input field
+            document.getElementById("guessno").value = "";
+
+            // Update the scorecard display to show score and attempts left
+            scorecard.textContent = "Your Score: " + score + " | Attempts Left: " + attempts;
+
+            // Generate a new random number for the next guess
+            randomNo = Math.floor(Math.random() * 10) + 1;
+
+            // If attempts reach zero, disable the guess button and alert the user
+            if (attempts === 0) {
+                alert("Your limit exceeded");
+                document.getElementById("guessBtn").disabled = true;  // Disable the button
+            }
+        }
+    </script>
+</body>
+</html>
