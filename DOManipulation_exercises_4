@@ -1,0 +1,41 @@
+
+<button id="btn" onclick="change()">Change Color</button>
+<script>
+var btn = document.getElementById("btn")
+
+function change()
+{
+    btn.style.backgroundColor="red"
+}
+</script> 
+
+ <h1 id="showText">hello</h1>
+<button onclick="clickk(event)">John</button>
+<button onclick="clickk(event)">Hari</button>
+<button onclick="clickk(event)">Praveen</button>
+<script>
+
+var showTest = document.getElementById("showText")
+
+
+function clickk(event)
+{
+    showTest.textContent=event.target.textContent
+
+}
+
+</script> 
+
+<h1 onclick="del(event)" id="one">ONE</h1>
+<h1 onclick="del(event)" id="one">TWO</h1>
+<h1 onclick="del(event)" id="one">THREE</h1>
+<h1 onclick="del(event)" id="one">FOUR</h1>
+<h1 onclick="del(event)" id="one">FIVE</h1>
+<h1 onclick="del(event)" id="one">SIX</h1>
+<script>
+    var one = document.getElementById("one")
+    function del(event)
+    {
+        one.remove()
+    }
+</script>
