@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <div id="myDiv" style="width: 100px; height: 100px; background-color: yellow;"></div>
+    <button onclick="changeBackgroundColor()">Change Color</button>
+
+    <script>
+        function changeBackgroundColor() {
+            var div = document.getElementById("myDiv");
+            div.style=" width: 200px ; height :200px ; background-color:lightblue" ;
+
+            // div.style.backgroundColor = "lightblue";
+        }
+    </script>
+</body>
+</html>
