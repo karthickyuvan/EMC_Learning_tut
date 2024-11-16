@@ -1,0 +1,26 @@
+ <input type="text" id="inputBox" onkeyup="update()">
+<h1 id="result"></h1>
+
+<script>
+   var type = document.getElementById("inputBox")
+   var result = document.getElementById("result")
+function update()
+{
+    result.textContent=type.value
+}
+</script> 
+
+ <button onclick="add()">ADD</button>
+<p id="display"></p>
+<script>
+  
+function add()
+
+{
+   var content = document.createElement("p")
+   content.textContent="hello"
+   document.getElementById("display").append(content)
+   
+}
+
+</script>
