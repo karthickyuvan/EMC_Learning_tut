@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Website</title>
+    
+</head>
+<style>
+    @media screen and (max-width:800px) {
+
+        .one {
+            flex-basis: 40%;
+        }
+        .two {
+            flex-basis: 40%;
+        }
+        .three {
+            flex-basis: 40%;
+        }
+        .four {
+            flex-basis: 40%;
+        }
+    }
+    @media screen and (max-width:600px) {
+
+.one {
+    flex-basis: 100%;
+}
+.two {
+    flex-basis: 100%;
+}
+.three {
+    flex-basis: 100%;
+}
+.four {
+    flex-basis: 100%;
+}
+
+}
+  .container
+   {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+       
+        
+   }
+.one
+{
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+   
+}
+.two
+{
+    background-color: blueviolet;
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+   
+}
+
+.three
+{
+    background-color: lightgreen;
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    
+}
+.four
+{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+   
+}
+
+</style>
+<body>
+    <div class="container"> 
+
+    <div class = "one">
+       
+    </div>
+    <div class = "two">
+
+    </div>
+    <div class = "three">
+
+    </div>
+    <div class = "four">
+
+    </div>
+</div>
+</body>
+</html>
